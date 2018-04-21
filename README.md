@@ -13,4 +13,4 @@ docker run -d -e "ENABLE_TOR=true" -v <local_data_folder>:/root/data -p 20184:20
 
 
 # 原理
-每分钟自动打开http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n/ 里面最新的5个站点。
+每分钟自动打开http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n/ 里面最新的30个站点。
