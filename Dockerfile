@@ -1,4 +1,4 @@
-FROM nofish/zeronet
+FROM canewsin/zeronet
 RUN apk update && apk add --upgrade tor && apk add sqlite curl
 COPY ./autoseed.sh /root/autoseed.sh
 COPY ./zeronet.conf /root/zeronet.conf
